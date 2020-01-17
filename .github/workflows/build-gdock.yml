@@ -11,6 +11,8 @@ on:
   push:
     branches: 
       - master
+  schedule:
+    - corn: 0 20 * * *
 
 jobs:
   build:
