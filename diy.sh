@@ -27,6 +27,10 @@ cp -f ../banner package/base-files/files/etc/
 echo '下载ServerChan'
 git clone https://github.com/tty228/luci-app-serverchan ../diy/luci-app-serverchan
 
+echo '下载新的主题lignt and night'
+git clone https://github.com/Aslin-Ameng/luci-theme-Light.git ../diy/luci-theme-Light
+git clone https://github.com/Aslin-Ameng/luci-theme-Night.git ../diy/luci-theme-Night
+
 echo '集成diy目录'
 ln -s ../../diy ./package/openwrt-packages
 
