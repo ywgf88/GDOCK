@@ -31,6 +31,9 @@ echo '下载新的主题lignt and night'
 git clone https://github.com/Aslin-Ameng/luci-theme-Light.git ../diy/luci-theme-Light
 git clone https://github.com/Aslin-Ameng/luci-theme-Night.git ../diy/luci-theme-Night
 
+echo '下载passwall'
+git clone https://github.com/Lienol/openwrt-package.git
+
 echo '集成diy目录'
 ln -s ../../diy ./package/openwrt-packages
 
