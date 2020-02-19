@@ -31,10 +31,6 @@ echo '下载新的主题lignt and night'
 git clone https://github.com/Aslin-Ameng/luci-theme-Light.git ../diy/luci-theme-Light
 git clone https://github.com/Aslin-Ameng/luci-theme-Night.git ../diy/luci-theme-Night
 git clone https://github.com/Leo-Jo-My/luci-theme-opentomcat.git ../diy/luci-theme-opentomcat
-git clone https://github.com/Leo-Jo-My/luci-theme-leo.git ../diy/luci-theme-leo
-
-#echo '下载Hello Word'
-#git clone  https://github.com/Flowers-in-thorns/luci-app-vssr-coexist ../diy/luci-app-vssr-coexist
 
 echo '下载passwall'
 git clone https://github.com/Lienol/openwrt-package.git ../diy/openwrt-package
