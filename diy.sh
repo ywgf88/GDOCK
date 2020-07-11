@@ -32,12 +32,14 @@ git clone https://github.com/Aslin-Ameng/luci-theme-Light.git ../diy/luci-theme-
 git clone https://github.com/Aslin-Ameng/luci-theme-Night.git ../diy/luci-theme-Night
 git clone https://github.com/Leo-Jo-My/luci-theme-opentomcat.git ../diy/luci-theme-opentomcat
 
-#e
-cho '下载passwall'
+#echo '下载passwall'
 #git clone https://github.com/Lienol/openwrt-package.git ../diy/openwrt-package
 
 echo '集成diy目录'
 ln -s ../../diy ./package/openwrt-packages
+
+echo '首页增加CPU频率动态显示'
+cp -f ../diy/mod-index.htm ./feeds/luci/modules/luci-mod-admin-full/luasrc/view/admin_status/index.htm
 
 
 
